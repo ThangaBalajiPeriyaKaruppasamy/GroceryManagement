@@ -7,7 +7,10 @@ builder.Services.AddSingleton<IGroceryService, InMemoryGroceryService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8087);
+});
 var app = builder.Build();
 
 // Enable Swagger UI
