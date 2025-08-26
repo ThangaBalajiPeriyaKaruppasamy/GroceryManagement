@@ -17,6 +17,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # expose the container port 8087
-EXPOSE 8087
+
 ENV ASPNETCORE_URLS=http://+:8087
+EXPOSE 8088
 ENTRYPOINT ["dotnet", "GroceryManagement.API.dll"]

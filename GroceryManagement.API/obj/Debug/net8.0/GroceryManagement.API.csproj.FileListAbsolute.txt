@@ -32,3 +32,4 @@ D:\GroceryManagement\GroceryManagement.API\GroceryManagement.API\obj\Debug\net8.
 D:\GroceryManagement\GroceryManagement.API\GroceryManagement.API\obj\Debug\net8.0\GroceryManagement.API.pdb
 D:\GroceryManagement\GroceryManagement.API\GroceryManagement.API\obj\Debug\net8.0\GroceryManagement.API.genruntimeconfig.cache
 D:\GroceryManagement\GroceryManagement.API\GroceryManagement.API\obj\Debug\net8.0\ref\GroceryManagement.API.dll
+D:\GroceryManagement\GroceryManagement.API\GroceryManagement.API\obj\Debug\net8.0\GroceryManagement.API.sourcelink.json
